@@ -8,3 +8,7 @@ class Person:
 
 setattr(Person, 'name', 10)
 print(Person.name)
+
+print(Person.__dict__)
+
+setattr(Person, 'color', 'carroty')
